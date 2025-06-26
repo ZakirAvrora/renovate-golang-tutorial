@@ -5,13 +5,9 @@
   "postUpdateOptions": ["gomodTidy"],
   "packageRules": [
     {
-      // ①
       "matchManagers": ["gomod"],
-      // ②
       "matchDatasources": ["go"],
-      // ③
       "matchUpdateTypes": ["patch", "minor"],
-      // ④
       "groupName": "golang-modules-minor-patch-updates"
     }
   ]
