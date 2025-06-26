@@ -10,5 +10,11 @@
       "matchUpdateTypes": ["patch", "minor"],
       "groupName": "golang-modules-minor-patch-updates"
     }
-  ]
+  ],
+  "prHourlyLimit": 2,
+  "labels": ["renovate"],
+  "reviewers": ["ZakirAvrora"],
+  "prHeader": "> [!NOTE]\n> this is prHeader",
+  "prBodyNotes": "> [!WARNING]\n> this is prBodyNotes",
+  "prFooter": "> [!CAUTION]\n> this is prFooter"
 }
